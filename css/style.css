@@ -102,6 +102,34 @@ body {
 .active{
   color:aqua;
 }
+.pagination{
+  position: absolute;
+}
+.pagination__left{
+  transition: opacity 0.3s, visibility 0s linear 0.3s;
+  display: block;
+  font-size: 300px;
+  font-family: 'FixSysCTT';
+  position: absolute;
+  right: -40px;
+  top: 390px;
+  opacity: 0.3;
+}
+.pagination__right{
+  transition: opacity 0.3s, visibility 0s linear 0.3s;
+  display: block;
+  font-size: 300px;
+  font-family: 'FixSysCTT';
+  position: absolute;
+  left: 960px;
+  top: 390px;
+  opacity: 0.3;
+}
+.pagination__left:hover,
+.pagination__right:hover{
+  opacity: 0.6;
+  transition: opacity 0.3s, visibility 0s linear 0.3s;
+}
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
