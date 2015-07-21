@@ -24,6 +24,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+body{
+    background: #101114;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -65,7 +68,6 @@ body {
 .wrapper {
 	width: 1000px;
 	margin: 0 auto;
-	min-height: 100%;
 	height: auto !important;
 	height: 100%;
 }
@@ -90,45 +92,45 @@ body {
     padding: 20px;
 }
 .main-menu__link{
+    font-size: 32px;
     font-family: 'FixSysCTT', arial;
     text-decoration: none;
     color: white;
-    font-size: 32px;
     -webkit-transition: color 1s ease;
 }
 .main-menu__link:hover{
     color: #71ff46;
 }
 .active{
-  color:aqua;
+    color:aqua;
 }
 .pagination{
-  position: absolute;
+    position: absolute;
 }
 .pagination__left{
-  transition: opacity 0.3s, visibility 0s linear 0.3s;
-  display: block;
-  font-size: 300px;
-  font-family: 'FixSysCTT';
-  position: absolute;
-  right: -40px;
-  top: 390px;
-  opacity: 0.3;
+    position: absolute;
+    right: -40px;
+    top: 390px;
+    display: block;
+    font-size: 300px;
+    font-family: 'FixSysCTT';
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
+    opacity: 0.3;
 }
 .pagination__right{
-  transition: opacity 0.3s, visibility 0s linear 0.3s;
-  display: block;
-  font-size: 300px;
-  font-family: 'FixSysCTT';
-  position: absolute;
-  left: 960px;
-  top: 390px;
-  opacity: 0.3;
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
+    display: block;
+    font-size: 300px;
+    font-family: 'FixSysCTT';
+    position: absolute;
+    left: 960px;
+    top: 390px;
+    opacity: 0.3;
 }
 .pagination__left:hover,
 .pagination__right:hover{
-  opacity: 0.6;
-  transition: opacity 0.3s, visibility 0s linear 0.3s;
+    opacity: 0.6;
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
 }
 /* Middle
 -----------------------------------------------------------------------------*/
@@ -144,15 +146,15 @@ body {
     padding-bottom: 10px;
 }
 .projects__item{
-    border-radius: 10px;
-    width: 250px;
-    height: 350px;
-    border: 1px solid rgba(66, 66, 66, 0.38);
-    float: left;
     margin-left: 60px;
     margin-top: 40px;
-    background: white;
     position: relative;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid rgba(66, 66, 66, 0.38);
+    float: left;
+    background: white;
 }
 .projects__title{
     font-size: 22px;
@@ -170,37 +172,40 @@ body {
     border-radius: 10px 10px 0px 0px;
 }
 .projects__img{
-    opacity: 0.5;
-    transition: opacity 0.3s, visibility 0s linear 0.3s;
+    margin-left: 12px;
+    margin-top: 10px;
     border-radius: 50%;
     width: 190px;
     height: 190px;
-    margin-left: 12px;
-    margin-top: 10px;
     border: 3px solid rgba(106, 106, 106, 0.37);
+    opacity: 0.5;
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
 }
 .projects__img:hover{
     opacity: 1;    
     transition-delay: 0s;
 }
 .projects__btn{
-    width: 252px;
-    height: 35px;
-    border: none;
-    cursor: pointer;
-    -webkit-transition: background 1s ease;
-    font-family: 'FixSysCTT';
-    font-size: 20px;
-    color: white;
-    background: #6B73E0;
-    display: block;
-    border-radius: 0px 0px 10px 10px;
-    position: absolute;
-    left: -1px;
-    top: 318px;
+  position: absolute;
+  left: -1px;
+  top: 318px;
+  width: 252px;
+  height: 28px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: 'FixSysCTT';
+  font-size: 20px;
+  color: white;
+  background: url(../img/bg.png) repeat-x #6B73E0;
+  display: block;
+  -webkit-transition: background 1s ease;
 }
 .projects__btn:hover{
-    background: #BE80EF;
+    background: url(../img/bg2.png) repeat-x #6B73E0;
+
 }
 .projects__btn:focus {
     outline: none;
@@ -209,6 +214,8 @@ body {
     display: block;
     height: 50px;
     margin-top: 5px;
+    font-family: 'FixSysCTT';
+    font-size: 20px;
 }
 
 /* Footer
