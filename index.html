@@ -1,65 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<title></title>
-	<meta name="keywords" content="" />
-	<title>Унылое портфолио</title>
-	<meta name="description" content="Унылое портфолио" />
-	<link href="css/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Порфолио v0.1</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
-
-
-<div class="wrapper">
-    <!-- header -->
-	<header class="header">
-        <div class="container">
-            <div class="logo"></div>
+   <div class="container">
+     <div class="row">
+       <div class="col-md-3">
+   
+       </div>
+       <div class="col-md-9">
             <!-- main menu -->
             <ul class="main-menu">
                 <li class="main-menu__item">
-                    <a href="#" class="main-menu__link active">
-                        Главная
-                    </a>
+                    <a href="#" class="btn btn-primary btn-lg" role="button">Главная</a>
                 <li class="main-menu__item">
-                    <a href="#" class="main-menu__link">
-                        Чонить
-                    </a>
+                    <a href="#" class="btn btn-default btn-lg disabled" role="button">Пустота</a>
                 </li>
                 <li class="main-menu__item">
-                    <a href="about.html" class="main-menu__link">
-                        Обо мне
-                    </a>
+                    <a href="#" class="btn btn-default btn-lg" role="button">Обо мне</a>
                 </li>
                 <li class="main-menu__item">
-                    <a href="contacts.html" class="main-menu__link">
-                        Контакты
-                    </a>
+                    <a href="#" class="btn btn-default btn-lg" role="button">Контакты</a>
                 </li>
             </ul>
-        </div>
-	</header>
-       <!-- content -->
-        <main class="content">
-                <div class="projects">
-                    <ul class="projects__list">
+       </div>
+     </div>
+       <div class="row">
+              <div class="col-md-12">
+                <ul class="projects__list">
                        <li  class="projects__item">
                             <div class="projects__box">
                                 <h2 class="projects__title">
-                                    
+                                    Вёрстка psd макета
                                 </h2>
-                                <a class="projects__link" href="#">
-                                    <img class="projects__img" src="img/test.png" alt="скриншот">
+                                <a class="projects__link" href="/guns-shop" target="_blank">
+                                    <img class="projects__img img-thumbnail" src="img/guns.png" alt="скриншот">
                                 </a>
                                 <span class="projects__text">
-                                    Далеко-далеко за словесными горами в стране. 
+                                    Моя старая верстка из PSD макета для магазина.
                                 </span>
-                                <a href="#" target="_blank" class="btn projects__btn">Подробнее</a>
+                                <div class="icon-list">
+                                    <a href="https://github.com/kawaiidon/gun-shop" target="_blank">
+                                        <img class="icon-list__item" src="img/github.png" alt="github">
+                                    </a>
+                                    <a href="/guns-shop" target="_blank">
+                                        <img class="icon-list__item" src="img/url2.png" alt="link">
+                                    </a>
+                                </div>
                             </div>
-                            
                        </li>
                        <li  class="projects__item">
                             <div class="projects__box">
@@ -67,12 +59,19 @@
                                     Заголовок
                                 </h2>
                                 <a class="projects__link" href="#">
-                                    <img class="projects__img" src="img/test.png" alt="скриншот">
+                                    <img class="projects__img img-thumbnail" src="http://lorempixel.com/output/abstract-h-c-130-136-9.jpg" alt="скриншот">
                                 </a>
                                 <span class="projects__text">
                                     Далеко-далеко за словесными горами в стране. 
                                 </span>
-                                 <a href="#" target="_blank" class="btn projects__btn">Подробнее</a>
+                                <div class="icon-list">
+                                    <a href="#" target="_blank">
+                                        <img class="icon-list__item" src="img/github.png" alt="github">
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <img class="icon-list__item" src="img/url2.png" alt="link">
+                                    </a>
+                                </div>
                             </div>
                        </li>
                        <li  class="projects__item">
@@ -80,13 +79,20 @@
                                 <h2 class="projects__title">
                                     Верстка страницы оплаты
                                 </h2>
-                                <a class="projects__link" href="#">
-                                    <img class="projects__img" src="img/cards.jpg" alt="скриншот">
+                                <a class="projects__link"  href="/cards" target="_blank">
+                                    <img class="projects__img img-thumbnail"  src="img/cards.jpg" alt="скриншот">
                                 </a>
                                 <span class="projects__text">
                                     Выполнение тестового задания по верстке страницы ввода данных кредитной карты. 
                                 </span>
-                                <a href="/cards" target="_blank" class="btn projects__btn">Подробнее</a>
+                                <div class="icon-list">
+                                    <a href="#" target="_blank">
+                                        <img class="icon-list__item" src="img/github.png" alt="github">
+                                    </a>
+                                    <a href="/cards" target="_blank">
+                                        <img class="icon-list__item" src="img/url2.png" alt="link">
+                                    </a>
+                                </div>
                             </div>
                        </li>
                        <li  class="projects__item">
@@ -95,12 +101,19 @@
                                     Заголовок
                                 </h2>
                                 <a class="projects__link" href="#">
-                                    <img class="projects__img" src="img/test.png" alt="скриншот">
+                                    <img class="projects__img img-thumbnail" src="http://lorempixel.com/output/abstract-h-c-130-136-2.jpg" alt="скриншот">
                                 </a>
                                 <span class="projects__text">
                                     Далеко-далеко за словесными горами в стране. 
                                 </span>
-                                <a href="#" target="_blank" class="btn projects__btn">Подробнее</a>
+                                <div class="icon-list">
+                                    <a href="#" target="_blank">
+                                        <img class="icon-list__item" src="img/github.png" alt="github">
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <img class="icon-list__item" src="img/url2.png" alt="link">
+                                    </a>
+                                </div>
                             </div>
                        </li>
                        <li  class="projects__item">
@@ -109,12 +122,19 @@
                                     Заголовок
                                 </h2>
                                 <a class="projects__link" href="#">
-                                    <img class="projects__img" src="img/test.png" alt="скриншот">
+                                    <img class="projects__img img-thumbnail" src="http://lorempixel.com/output/abstract-h-c-130-136-1.jpg" alt="скриншот">
                                 </a>
                                 <span class="projects__text">
                                     Далеко-далеко за словесными горами в стране. 
                                 </span>
-                                <a href="#" target="_blank" class="btn projects__btn">Подробнее</a>
+                                <div class="icon-list">
+                                    <a href="#" target="_blank">
+                                        <img class="icon-list__item" src="img/github.png" alt="github">
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <img class="icon-list__item" src="img/url2.png" alt="link">
+                                    </a>
+                                </div>
                             </div>
                        </li>
                        <li  class="projects__item">
@@ -123,32 +143,55 @@
                                     Заголовок
                                 </h2>  
                                 <a class="projects__link" href="#">
-                                    <img class="projects__img" src="img/test.png" alt="скриншот">
+                                    <img class="projects__img img-thumbnail" src="http://lorempixel.com/output/abstract-h-c-130-136-10.jpg" alt="скриншот">
                                 </a>
                                 <span class="projects__text">
                                     Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. 
                                 </span>
-                                <a href="#" target="_blank" class="btn projects__btn">Подробнее</a>
+                                <div class="icon-list">
+                                    <a href="#" target="_blank">
+                                        <img class="icon-list__item" src="img/github.png" alt="github">
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <img class="icon-list__item" src="img/url2.png" alt="link">
+                                    </a>
+                                </div>
                             </div>
                        </li>
                     </ul>
-				</div>
-				<div class="pagination">
-				  <span class="pagination__left">
-				    &#60;
-				  </span>
-				   <span class="pagination__right">
-				    &#62;
-				  </span>
-				</div>
-			</main>
-</div>
-<!-- footer -->
-<footer class="footer">
-    <span class="footer__text">
-        	<strong>Footer:</strong> Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. 
-    </span>
-</footer>
+              </div>
+       </div>
+   </div>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter31562003 = new Ya.Metrika({
+                        id:31562003,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true,
+                        trackHash:true
+                    });
+                } catch(e) { }
+            });
 
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <!-- /Yandex.Metrika counter -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
